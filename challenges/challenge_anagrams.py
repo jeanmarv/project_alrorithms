@@ -9,6 +9,5 @@ def is_anagram(first_string, second_string):
             return False
     if len(second_list) == 0:
         return True
-    else: return False
-
-print(is_anagram("pedra", "perdaa"))
+    else:
+        return False
